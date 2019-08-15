@@ -1,0 +1,53 @@
+body {
+
+    background-color:#000000
+;
+     }
+  page {
+    background: #fff3fc;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+  page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+  page[size="A4"][layout="landscape"] {
+    width: 29.7cm;
+    height: 21cm;  
+  }
+
+  }
+  @media print {
+    body, page {
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
+  .circle{ /* ชื่อคลาสต้องตรงกับ <img class="circle"... */
+    height: 150;  /* ความสูงปรับให้เป็นออโต้ */
+    width: 150;  /* ความสูงปรับให้เป็นออโต้ */
+    border: 3px solid #fff; /* เส้นขอบขนาด 3px solid: เส้น #fff:โค้ดสีขาว */
+    border-radius: 50%; /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
+    box-shadow: 0 0 5px rgba(22, 30, 236, 0.92); /* เงาของรูป */
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+}
+#introduction{
+    background: linear-gradient(#E5F2BB, #B7E952); 
+    background: -webkit-linear-gradient(#E5F2BB, #B7E952); 
+    background: -o-linear-gradient(#E5F2BB, #B7E952); 
+    background: -moz-linear-gradient(#E5F2BB, #B7E952); 
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 65px;
+    color: rgb(1, 0, 8);
+    font-weight: normal;
+}
